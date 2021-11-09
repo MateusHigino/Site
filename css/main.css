@@ -1,0 +1,393 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+body {
+background: rgb(0, 0, 0);
+}
+
+header {
+margin: 10px;
+width: 98%;
+}
+
+#menu_slide {
+  position: absolute;
+  z-index: 99;
+  left: -200px;
+  top: 97px;
+  width: 150px;
+  height: 350px;
+  background-color: rgba(219, 181, 8, 0.938);
+  border: 1px solid silver;
+  border-radius: 5px;
+  transition: 500ms ease-in;
+}
+#menu_slide.show {
+  left: 5px;
+}  
+    
+#menu-mobile {
+display: block;
+float: right;
+margin-top: 20px;
+}
+ 
+.img-logo {
+width: 50px;
+height: 85px;
+padding: 10px;
+}
+
+.col-2 {
+width: 5%;    
+}
+
+#nav-desktop {
+  display: none;
+}
+
+#nav-desktop ul {
+list-style: none;
+display: flex;   
+flex-direction: row;
+flex-wrap: wrap;
+column-gap: 5px;
+padding: 20px;
+float: left;
+margin-left: 20px;
+margin-top: 5px;
+}
+    
+#nav-desktop ul li {
+font-weight: bold;
+margin-left: 10px;
+}
+
+#nav-desktop ul li a {
+color: rgb(255, 255, 255);
+font-weight: 900%;
+text-decoration: none;
+font-size: 15px;
+width: 20px;
+}
+
+#banner {
+  background: url('../img/Banner.png');
+  margin: 20px;
+  padding: 50px;
+}
+#banner img {
+width: 100%;
+padding: 10px;
+}
+
+#banner h2 {
+
+  color: #f5f5f5;
+  font-weight: bold;  
+}
+
+#banner p {
+  font-size: 20px;
+  color: #f5f5f5;
+  font-weight: 150;
+}
+
+#destaques div {
+  padding: 10px;
+}
+
+#destaques h2{
+position: absolute;
+width: 100%;
+text-align: center;
+font-size: 30px;
+color: rgb(255, 255, 255);
+font-weight: bold;
+margin-top: -15px;
+}
+
+.destaque-vendas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 80px;
+  justify-content: center;
+}
+
+.texto-centralizado {
+  font-family: Arial;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.senai-card {
+  width: 250px;
+  border: 2px solid silver;
+  border-radius: 5px;
+  margin-top: 18px;
+  background: solid rgb(201, 195, 195);
+}
+.senai-card img {
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+}
+.senai-card div {
+  padding: 10px;
+}
+
+#banner3 {
+  text-align: center;
+}
+
+#banner3 img {
+  margin-left: 10px;
+  margin-top: 30px;
+  padding: 30px;
+}
+.carousel-inner {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+
+#mais-vendidos {
+ margin-top: 40px;
+ margin: 10px;
+}
+
+#mais-vendidos h2 {
+  font-family: Arial;
+text-align: center;
+font-size: 30px;
+color: rgb(255, 255, 255);
+font-weight: 900;
+margin-bottom: 15px;
+}
+
+.texto-novidades{
+  text-align: center;
+}
+
+#Novidades h2 {
+  font-family: Verdana;
+  font-size: 35px;
+  margin-left: 25px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  color:#f5f5f5;
+  text-decoration: underline;
+}
+
+.Novidades {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 380px;
+  justify-content: center;
+}
+
+.fifa-22 {
+  margin-bottom: 100px;
+  border: 2px solid rgb(179, 177, 177);
+  border-radius: 5px;
+}
+
+.Battlefield-2042 {
+  margin-top: 8px;
+  margin-bottom: 80px;
+  border: 2px solid rgb(148, 146, 146);
+  border-radius: 5px;
+}
+
+.Sekiro {
+  margin-bottom: 10%;
+  border: 2px solid rgb(148, 146, 146);
+  border-radius: 5px;
+}
+
+.Cyberpunk {
+  margin-top: 5px;
+  margin-bottom: 130px;
+  border: 2px solid rgb(148, 146, 146);
+  border-radius: 5px;
+}
+
+.NBA-2K22 {
+  margin-bottom: 100px;
+  border: 2px solid rgb(148, 146, 146);
+  border-radius: 5px; 
+}
+
+.Hades {
+  margin-bottom: 100px;
+  border: 2px solid rgb(148, 146, 146);
+  border-radius: 5px; 
+}
+
+#banner2 {
+  margin-left: 8px; 
+}
+
+#banner2 img {
+padding: 5px;
+}
+
+#Lançamentos h1 {
+  font-family: Verdana;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.Video {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 380px;
+  justify-content: center;  
+}
+
+.Video-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 380px;
+  margin-top: 50px;
+}
+
+.redes-sociais h2 {
+  margin-bottom: 50px;
+}
+
+#midias-sociais {
+  flex-direction: row;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.redes-sociais img {
+  width: 9%;
+  border-radius: 10px;
+  box-shadow: 0 14px 20px 0 rgba(17, 0, 255, 0.2), 0 10px 20px 0 rgba(0, 17, 255, 0.19);
+  margin-left: 30px;
+}
+
+footer {
+  background-color: rgba(212, 193, 14, 0.87);
+  margin: 10px;
+  padding: 10px;
+  display: grid;
+  margin-top: 100px;
+  grid-template-areas: 
+    "enderecos telefones"
+    "emails midias-sociais";
+}
+
+#img-rodape, #menu-rodape {
+  display: none;
+}
+
+#menu-rodape ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.enderecos {
+  grid-area: enderecos;
+}
+.emails {
+  grid-area: emails;
+}
+.telefones {
+  grid-area: telefones;
+}
+
+.img-logo {
+  width: 100px;
+}
+
+#img-rodape, #menu-rodape {
+  display: block;
+}
+#img-rodape {
+  grid-area: logotipo;
+}
+#menu-rodape {
+  grid-area: menu-rodape;
+}
+
+footer {
+  grid-template-areas: 
+    "logotipo emails midias-sociais"
+    "logotipo enderecos menu-rodape"
+    "logotipo telefones menu-rodape";
+}
+
+#img-rodape, #menu-rodape {
+  display: block;
+}
+#img-rodape {
+  grid-area: logotipo;
+}
+#menu-rodape {
+  grid-area: menu-rodape;
+} 
+
+@media screen and (max-width: 720px) and (max-device-width: 1280px) {
+
+#nav-desktop {
+display: block;
+margin-top: 30px;
+float: right;
+}
+
+#menu-mobile {
+display: none;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+
+#banner3 img {
+  width: 90%;
+  height: 480px;
+}
+
+
+.fifa-22 {
+  width: 304px;
+  margin-bottom: 210px;
+}
+
+.Battlefield-2042 {
+  margin-bottom: 201px;
+}
+
+.NBA-2K22 {
+  margin-bottom: 199px;
+}
+
+.Hades {
+  margin-bottom: 200px;
+}
+
+#nav-desktop {
+  display: block;
+  margin-top: 0px;
+
+}
+
+ #menu-mobile {
+    display: none;
+  }  
+
+}
+
